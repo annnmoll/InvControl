@@ -7,7 +7,7 @@ const uploadToCloudinary = async (file, folder) => {
     
   } catch (e) {
     console.log(e.message);
-  }
+  } 
 };
 
 module.exports = uploadToCloudinary;
