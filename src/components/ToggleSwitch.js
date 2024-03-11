@@ -10,7 +10,7 @@ const [isChecked, setIsChecked] = useState(false);
 
   const handleCheckboxChange = () => {
      
-    if(role === "Salesman" ){ setRole("Admin") ; console.log("Admin")}
+    if(!isChecked ){ setRole("Admin") ; console.log("Admin")}
     else{ setRole("Salesman") ; console.log("Salesman")}  
     setIsChecked(!isChecked);
 };
